@@ -1,0 +1,9 @@
+| Nombre               | Descripción                                          | Tipo de dato     | Unidad   | Valores posibles            | Espaciales o faltantes | Estadísticas básicas |
+|----------------------|------------------------------------------------------|------------------|----------|-----------------------------|------------------------|----------------------|
+| sex                  | sexo (masculino o femenino)                          | string           |          | {femenino, masculino}       |                        |                      |
+| age                  | edad del paciente                                    | entero           | años     | [15, 67]                    |                        |                      |
+| Time                 | tiempo transcurrido antes del tratamiento            | punto flotante   | meses    | [0, 12]                     |                        |                      |
+| Number_of_Warts      | número de berrugas                                   | entero           |          | [1, 12]                     |                        |                      |
+| Type                 | tipo de berruga                                      | cualitativo      |          | {comun, planar, ambos}      |                        |                      |
+| Area                 | área de la berruga                                   | entero           | mm^2     | [4, 750]                    |                        |                      |
+| Result_of_Treatment  | resultado del tratamiento (exitoso o no exitoso)     | string           |          | {exito, fracaso}            |                        |                      |
